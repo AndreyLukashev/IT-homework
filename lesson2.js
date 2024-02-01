@@ -1,12 +1,10 @@
 const family = prompt("Укажите вашу фамилию");
+const name = prompt("Укажите ваше имя");
+const patronymic = prompt("Укажите ваше отчество");
+const age = prompt("Укажите ваш возраст");
+const sex = confirm("Ваш пол мужской?");
 
-// family = prompt("Укажите вашу фамилию");
-// name = prompt("Укажите ваше имя");
-// patronymic = prompt("Укажите ваше отчество");
-// age = prompt("Укажите ваш возраст");
-// age1 = parseInt(age) * 365;
-// age2 = parseInt(age) + 5;
-// sex = confirm("Ваш пол мужской?");
+const user = alert(family, name, patronymic, age, sex);
 
 // let sex1;
 // if (sex == true) {
